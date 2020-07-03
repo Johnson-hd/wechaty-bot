@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "lib": ["es6", "es2017"]
+  },
+  "include": ["src/**/*.ts", "config/**/*.ts"]
+}
